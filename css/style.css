@@ -51,7 +51,8 @@ header li:hover{
     MAIN
 */
 
-.user-profile{
+.user-profile,
+.about{
     background-color: #1ABC9C;
 }
 
