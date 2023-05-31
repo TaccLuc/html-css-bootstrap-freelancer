@@ -7,6 +7,22 @@
     margin: 0 auto;
 }
 
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+.horizontal-line{
+    height: .3125rem;
+}
+
 
 /* 
     HEADER
@@ -21,12 +37,14 @@ header li:hover{
     cursor: pointer;
 }
 
-header h2{
-    font-size: 1.2rem;
+
+/* 
+    MAIN
+*/
+
+.user-profile{
+    background-color: #1ABC9C;
 }
-
-
-
 
 /* 
     RESPONSIVE
@@ -34,8 +52,16 @@ header h2{
 
 @media (min-width: 768px) { 
     
-    header h2{
+    
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
         font-size: 1.6rem;
+    }
+    h3{
+        font-size: 1.3rem;
     }
  }
 
@@ -53,9 +79,7 @@ header h2{
  /* 
     DEBUG
  */
-.debug main .user-profile .row .col-auto{
-    background-color: lightcoral;
-}
+
 
 .debug footer .upper-footer .col-12{
     background-color: aquamarine;
