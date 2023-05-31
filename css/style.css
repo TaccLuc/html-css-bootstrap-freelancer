@@ -57,6 +57,33 @@ header li:hover{
     background-color: #1ABC9C;
 }
 
+/* 
+    FOOTER
+*/
+
+.upper-footer{
+    background-color: #3A546D;
+}
+
+.lower-footer{
+    background-color: #2C3E50;
+}
+
+.icon-container{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.8rem;
+}
+
+.bs_link{
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+.lower-footer div{
+    font-size: 0.7rem;
+}
 
 /* 
     RESPONSIVE
@@ -90,24 +117,3 @@ header li:hover{
         width: 6rem;
     }
  }
-
-
-@media (min-width: 992px) { 
-    
-}
-
-
-@media (min-width: 1200px) { 
-    
- }
-
-
- /* 
-    DEBUG
- */
-
-
-.debug footer .upper-footer .col-12{
-    background-color: aquamarine;
-    border: 2px dashed black;
-}
