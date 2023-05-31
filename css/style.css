@@ -34,3 +34,8 @@
 .debug main .user-profile .row .col-auto{
     background-color: lightcoral;
 }
+
+.debug footer .upper-footer .col-12{
+    background-color: aquamarine;
+    border: 2px dashed black;
+}
