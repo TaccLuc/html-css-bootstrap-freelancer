@@ -19,8 +19,17 @@ h3{
     font-size: 1rem;
 }
 
+.star-line{
+    font-size: 1.7rem;
+}
+
+.section-title{
+    font-size: 1.2rem;
+}
+
 .horizontal-line{
-    height: .3125rem;
+    height: .250rem;
+    width: 3rem;
 }
 
 
@@ -60,8 +69,22 @@ header li:hover{
     h2{
         font-size: 1.6rem;
     }
+    
     h3{
         font-size: 1.3rem;
+    }
+
+    .star-line{
+        font-size: 1.5rem;
+    }
+
+    .section-title{
+        font-size: 3rem;
+    }
+
+    .horizontal-line{
+        height: .250rem;
+        width: 6rem;
     }
  }
 
