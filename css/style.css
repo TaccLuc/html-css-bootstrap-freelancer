@@ -1,36 +1,58 @@
+/* 
+    GENERAL
+*/
+
 .container_mini{
     width: 60%;
     margin: 0 auto;
 }
 
 
+/* 
+    HEADER
+*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.debug header .row .col{
-    background-color: aquamarine;
-    border: 2px dashed black;
+header{
+    background-color: #2C3E50;
 }
 
+header li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header h2{
+    font-size: 1.2rem;
+}
+
+
+
+
+/* 
+    RESPONSIVE
+*/
+
+@media (min-width: 768px) { 
+    
+    header h2{
+        font-size: 1.6rem;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    
+}
+
+
+@media (min-width: 1200px) { 
+    
+ }
+
+
+ /* 
+    DEBUG
+ */
 .debug main .user-profile .row .col-auto{
     background-color: lightcoral;
 }
