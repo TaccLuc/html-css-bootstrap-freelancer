@@ -52,9 +52,11 @@ header li:hover{
 */
 
 .user-profile,
-.about{
+.about,
+.contact-me .btn{
     background-color: #1ABC9C;
 }
+
 
 /* 
     RESPONSIVE
