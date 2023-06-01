@@ -32,28 +32,28 @@ h3{
     width: 3rem;
 }
 
-
-/* 
-    MAIN
-*/
-
-.user-profile,
-.about,
-.contact-me .btn{
-    background-color: #1ABC9C;
+:root{
+    --bs_green: #1ABC9C;
+    --bs_light-gray: #3A546D;
+    --bs_dark_gray: #2C3E50;
 }
+
+.bg_bs_green{
+    background-color: var(--bs_green);
+}
+
+.bg_bs_light-gray{
+    background-color: var(--bs_light-gray);
+}
+
+.bg_dark_gray{
+    background-color: var(--bs_dark_gray);
+}
+
 
 /* 
     FOOTER
 */
-
-.upper-footer{
-    background-color: #3A546D;
-}
-
-.lower-footer{
-    background-color: #2C3E50;
-}
 
 .icon-container{
     width: 30px;
@@ -63,7 +63,7 @@ h3{
 }
 
 .bs_link{
-    color: #1ABC9C;
+    color: var(--bs_green);
     text-decoration: none;
 }
 
