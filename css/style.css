@@ -50,6 +50,9 @@ h3{
     background-color: var(--bs_dark_gray);
 }
 
+.white_border{
+    border-color: white;
+}
 
 /* 
     FOOTER
