@@ -55,6 +55,14 @@ h3{
 }
 
 /* 
+    MAIN
+*/
+
+.form-floating > .textarea{
+    height: 200px;
+}
+
+/* 
     FOOTER
 */
 
